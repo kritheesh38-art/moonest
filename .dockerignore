@@ -1,0 +1,9 @@
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+frontend/dist
+frontend/dist-server
+frontend/moonest-app.html
+backend/uploads
+backend/.env

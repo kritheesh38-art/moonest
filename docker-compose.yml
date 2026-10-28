@@ -1,0 +1,21 @@
+# Local or single-server deployment: MongoDB + MooNest (API and app on http://localhost:8000).
+# Copy backend/.env.example to ./.env first and fill it in (DEMO_MODE=false, JWT_SECRET, ADMIN_*, keys).
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    volumes: [mongo-data:/data/db]
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:  # these win over .env inside the container
+      MONGO_URL: mongodb://mongo:27017
+      FRONTEND_DIST: /app/web
+      UPLOAD_DIR: /data/uploads
+    ports: ["8000:8000"]
+    volumes: [uploads:/data/uploads]
+    depends_on: [mongo]
+volumes:
+  mongo-data:
+  uploads:

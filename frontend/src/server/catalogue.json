@@ -1,0 +1,364 @@
+[
+  {
+    "id": "aavin-milk-blue",
+    "group": "aavin-milk",
+    "name": "Nice Toned Milk",
+    "brand": "Aavin",
+    "supplier": "Aavin",
+    "unit": "500 ml",
+    "price_paise": 2000,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Toned",
+      "Pouch"
+    ],
+    "description": "Toned milk · 3% fat",
+    "image": "img/pk-aavin-milk-blue-v2.jpg",
+    "subscribable": true,
+    "pack_label": "Blue",
+    "pack_color": "#12a5e0",
+    "fat": "3%"
+  },
+  {
+    "id": "aavin-milk-green",
+    "group": "aavin-milk",
+    "name": "Green Magic Standardised Milk",
+    "brand": "Aavin",
+    "supplier": "Aavin",
+    "unit": "500 ml",
+    "price_paise": 2200,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Standardised",
+      "Pouch"
+    ],
+    "description": "Standardised milk · 4.5% fat",
+    "image": "img/pk-aavin-milk-green-v2.jpg",
+    "subscribable": true,
+    "pack_label": "Green",
+    "pack_color": "#0a7a32",
+    "fat": "4.5%"
+  },
+  {
+    "id": "aavin-milk-purple",
+    "group": "aavin-milk",
+    "name": "Delite Cow Milk",
+    "brand": "Aavin",
+    "supplier": "Aavin",
+    "unit": "500 ml",
+    "price_paise": 2200,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Cow",
+      "Pouch"
+    ],
+    "description": "Cow milk",
+    "image": "img/pk-aavin-milk-purple.jpg",
+    "subscribable": true,
+    "pack_label": "Violet",
+    "pack_color": "#4e2581",
+    "fat": ""
+  },
+  {
+    "id": "aavin-milk-maroon",
+    "group": "aavin-milk",
+    "name": "Premium Full Cream Milk",
+    "brand": "Aavin",
+    "supplier": "Aavin",
+    "unit": "500 ml",
+    "price_paise": 3000,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Full cream",
+      "Pouch"
+    ],
+    "description": "Full cream milk · 6% fat",
+    "image": "img/pk-aavin-milk-maroon-v2.jpg",
+    "subscribable": true,
+    "pack_label": "Orange",
+    "pack_color": "#e5780f",
+    "fat": "6%"
+  },
+  {
+    "id": "arokya-milk-blue",
+    "group": "arokya-milk",
+    "name": "Toned Milk",
+    "brand": "Arokya",
+    "supplier": "Arokya",
+    "unit": "500 ml",
+    "price_paise": 2900,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Toned",
+      "Pouch"
+    ],
+    "description": "Toned milk · 3% fat",
+    "image": "img/pk-arokya-milk-blue.jpg",
+    "subscribable": true,
+    "pack_label": "Blue",
+    "pack_color": "#20b1da",
+    "fat": "3%"
+  },
+  {
+    "id": "arokya-milk-green",
+    "group": "arokya-milk",
+    "name": "Standardized Milk",
+    "brand": "Arokya",
+    "supplier": "Arokya",
+    "unit": "500 ml",
+    "price_paise": 3200,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Standardised",
+      "Pouch"
+    ],
+    "description": "Standardised milk · 4.5% fat",
+    "image": "img/pk-arokya-milk-green.jpg",
+    "subscribable": true,
+    "pack_label": "Green",
+    "pack_color": "#2b994a",
+    "fat": "4.5%"
+  },
+  {
+    "id": "arokya-milk-orange",
+    "group": "arokya-milk",
+    "name": "Full Cream Milk",
+    "brand": "Arokya",
+    "supplier": "Arokya",
+    "unit": "500 ml",
+    "price_paise": 3700,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Full cream",
+      "Pouch"
+    ],
+    "description": "Full cream milk · 6% fat",
+    "image": "img/pk-arokya-milk-orange.jpg",
+    "subscribable": true,
+    "pack_label": "Orange",
+    "pack_color": "#e87c32",
+    "fat": "6%"
+  },
+  {
+    "id": "heritage-milk-green",
+    "group": "heritage-milk",
+    "name": "Daily Health Toned Milk",
+    "brand": "Heritage",
+    "supplier": "Heritage",
+    "unit": "500 ml",
+    "price_paise": 2700,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Toned",
+      "Pouch"
+    ],
+    "description": "Toned milk · 3% fat",
+    "image": "img/pk-heritage-milk-green.jpg",
+    "subscribable": true,
+    "pack_label": "Green",
+    "pack_color": "#2d913e",
+    "fat": "3%"
+  },
+  {
+    "id": "farm-fresh-500",
+    "name": "Farm Fresh Cow Milk",
+    "brand": "Farm Fresh",
+    "supplier": "Local farms",
+    "unit": "500 ml",
+    "price_paise": 3500,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Unpacketed",
+      "Glass bottle"
+    ],
+    "description": "Unpacketed cow milk from local farms, in a reusable glass bottle",
+    "image": "img/p-a2-500.jpg",
+    "subscribable": true
+  },
+  {
+    "id": "farm-fresh-1l",
+    "name": "Farm Fresh Cow Milk",
+    "brand": "Farm Fresh",
+    "supplier": "Local farms",
+    "unit": "1 L",
+    "price_paise": 6500,
+    "mrp_paise": null,
+    "category": "milk",
+    "tags": [
+      "Unpacketed",
+      "Glass bottle"
+    ],
+    "description": "Unpacketed cow milk from local farms, in a reusable glass bottle",
+    "image": "img/p-a2-1l.jpg",
+    "subscribable": true
+  },
+  {
+    "id": "aavin-curd",
+    "name": "Curd",
+    "brand": "Aavin",
+    "supplier": "Aavin",
+    "unit": "500 g pouch",
+    "price_paise": 3500,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Curd"
+    ],
+    "description": "Thick set curd from Aavin",
+    "image": "img/d-aavin-curd.jpg",
+    "subscribable": true
+  },
+  {
+    "id": "aavin-ghee",
+    "name": "Ghee",
+    "brand": "Aavin",
+    "supplier": "Aavin",
+    "unit": "500 ml jar",
+    "price_paise": 36500,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Ghee"
+    ],
+    "description": "Agmark special grade ghee",
+    "image": "img/d-aavin-ghee.jpg",
+    "subscribable": false
+  },
+  {
+    "id": "amul-dahi",
+    "name": "Masti Dahi",
+    "brand": "Amul",
+    "supplier": "Amul",
+    "unit": "400 g pouch",
+    "price_paise": 3500,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Curd"
+    ],
+    "description": "Thick, smooth set dahi",
+    "image": "img/d-amul-dahi.jpg",
+    "subscribable": true
+  },
+  {
+    "id": "amul-paneer",
+    "name": "Malai Paneer Fresh",
+    "brand": "Amul",
+    "supplier": "Amul",
+    "unit": "200 g",
+    "price_paise": 9900,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Paneer"
+    ],
+    "description": "Soft fresh paneer, 20% protein",
+    "image": "img/d-amul-paneer.jpg",
+    "subscribable": false
+  },
+  {
+    "id": "amul-butter",
+    "name": "Pasteurised Butter",
+    "brand": "Amul",
+    "supplier": "Amul",
+    "unit": "100 g",
+    "price_paise": 6200,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Butter"
+    ],
+    "description": "The classic salted table butter",
+    "image": "img/d-amul-butter.jpg",
+    "subscribable": false
+  },
+  {
+    "id": "amul-cheese",
+    "name": "Pure Milk Cheese Slices",
+    "brand": "Amul",
+    "supplier": "Amul",
+    "unit": "200 g · 10 slices",
+    "price_paise": 14500,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Cheese"
+    ],
+    "description": "Processed cheddar slices",
+    "image": "img/d-amul-cheese.jpg",
+    "subscribable": false
+  },
+  {
+    "id": "amul-ghee",
+    "name": "Pure Ghee",
+    "brand": "Amul",
+    "supplier": "Amul",
+    "unit": "1 L jar",
+    "price_paise": 61000,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Ghee"
+    ],
+    "description": "Rich, granular pure ghee",
+    "image": "img/d-amul-ghee.jpg",
+    "subscribable": false
+  },
+  {
+    "id": "heritage-curd",
+    "name": "Total Curd",
+    "brand": "Heritage",
+    "supplier": "Heritage",
+    "unit": "500 g pouch",
+    "price_paise": 3800,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Curd"
+    ],
+    "description": "Calcium-rich thick curd",
+    "image": "img/d-heritage-curd.jpg",
+    "subscribable": true
+  },
+  {
+    "id": "heritage-paneer",
+    "name": "Fresh Paneer",
+    "brand": "Heritage",
+    "supplier": "Heritage",
+    "unit": "200 g",
+    "price_paise": 12000,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Paneer"
+    ],
+    "description": "Soft, fresh malai paneer",
+    "image": "img/d-heritage-paneer.jpg",
+    "subscribable": false
+  },
+  {
+    "id": "heritage-ghee",
+    "name": "Cow Ghee",
+    "brand": "Heritage",
+    "supplier": "Heritage",
+    "unit": "1 L spout pouch",
+    "price_paise": 70500,
+    "mrp_paise": null,
+    "category": "dairy",
+    "tags": [
+      "Ghee"
+    ],
+    "description": "Pure cow ghee",
+    "image": "img/d-heritage-ghee.jpg",
+    "subscribable": false
+  }
+]

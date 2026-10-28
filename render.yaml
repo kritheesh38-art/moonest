@@ -1,0 +1,29 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# New → Blueprint → pick this repository. Gives a public https URL for testers.
+#
+# As written it's a TEST server: demo customer/agent accounts (password pass1234), on-screen OTPs, test payments,
+# and an in-memory database that resets whenever the service restarts or sleeps (free plan sleeps
+# after ~15 idle minutes). To keep data, set MONGO_URL to a MongoDB Atlas connection string.
+services:
+  - type: web
+    name: moonest
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGO_URL
+        value: mongomock://
+      - key: DEMO_MODE
+        value: "true"
+      - key: SEED_DEMO_DATA
+        value: "true"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "*"
+      # Only these usernames can use Admin. Render asks for the password when you create the
+      # Blueprint (sync: false keeps it out of git); change it later under Environment.
+      - key: ADMIN_USERS
+        value: ritissh,kritheesh,subhasree
+      - key: ADMIN_PASSWORD
+        sync: false

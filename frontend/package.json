@@ -1,0 +1,29 @@
+{
+  "name": "moonest-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "vite --mode server",
+    "build": "tsc -b && vite build",
+    "build:server": "tsc -b && vite build --mode server --outDir dist-server",
+    "build:artifact": "npm run build && node build-artifact.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "leaflet": "1.9.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@types/leaflet": "1.9.12",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "5.5.4",
+    "vite": "^8.3.5"
+  }
+}
